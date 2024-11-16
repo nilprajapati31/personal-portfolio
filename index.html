@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+
+            <nav>
+
+                <img src="logo1.png" alt="name" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <i class="ri-close-fill" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="ri-menu-line" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm<span> Neel</span><br> Prajapati From Ambaji</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------about------------- -->
+
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My Self Nil Prajapati. I'm From Ambaji, Gujarat. I have done my 12th Science from Tapasya School Gandhinagar. resently I'm Studing B.sc (ca & it) from Ganpat University, Mehsana, Gujarat
+                    </p>
+
+                    <div class="tab-titles">
+                        <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                        <P class="tab-links" onclick="opentab('Experience')">Experience</P>
+                        <P class="tab-links" onclick="opentab('Education')">Education</P>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+
+                        <ul>
+                            <li><span>2020-2021</span><br>10th GSEB-APHS</li>
+                            <li><span>2021-2023</span><br>12th Science-Tapasya School Gandhinagar</li>
+                            <li><span>2024-2026</span><br>Ganpat University Kherva</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+
+                        <ul>
+                            <li><span>2020-2021</span><br>10th GSEB-APHS</li>
+                            <li><span>2021-2023</span><br>12th Science-Tapasya School Gandhinagar</li>
+                            <li><span>2024-2026</span><br>Ganpat University Kherva</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services------------------ -->
+    <div id="services">
+
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="ri-code-s-slash-line"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptates soluta possimus
+                        consectetur nobis! Ipsam maiores laboriosam impedit, error illum optio assumenda voluptatibus
+                        tenetur exercitationem, odit enim fuga repellat! Eos?</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="ri-crop-line"></i>
+                    <h2>Ui/Ux Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptates soluta possimus
+                        consectetur nobis! Ipsam maiores laboriosam impedit, error illum optio assumenda voluptatibus
+                        tenetur exercitationem, odit enim fuga repellat! Eos?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="ri-app-store-fill"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptates soluta possimus
+                        consectetur nobis! Ipsam maiores laboriosam impedit, error illum optio assumenda voluptatibus
+                        tenetur exercitationem, odit enim fuga repellat! Eos?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio----------- -->
+
+
+    <div id="portfolio">
+        <div class="container">
+
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you yo the talented people around the world.Download it from play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you yo the talented people around the world.Download it from play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you yo the talented people around the world.Download it from play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- ------------Contact------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>contact@example.com</p>
+                    <p>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href=""><i class="ri-twitter-x-fill"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                    </div>
+                    <a href="Neel's Resume.pdf"Download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="ri-copyright-line"></i>-@neelprajapati- All Right Reserved <i class="ri-heart-line"></i></p>
+        </div>
+    </div>
+    
+
+    <!-- // -->
+    <!-- -------javascript-------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classlist.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classlist.remove("active-tab");
+            }
+
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+    </script>
+</body>
+
+</html>
